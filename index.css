@@ -1,0 +1,29 @@
+.audio-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: gold;
+  border: 3px solid gold;
+  border-radius: 20px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.CajaRepro{
+  position: absolute;
+  left: 25%;
+  border: 5px solid gold;
+  border-radius: 40px;
+  background-color: gold;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.imagen-reducida {
+  max-width: 600px;
+  display: block;
+  position: relative;
+  z-index: -1;
+}
+
+
